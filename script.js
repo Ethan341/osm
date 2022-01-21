@@ -1,4 +1,4 @@
-"use strict";
+
 var app = angular.module("xmodule", []).controller("xcontroller", [
   "$scope",
   function ($scope) {
