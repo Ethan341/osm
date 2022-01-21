@@ -145,6 +145,19 @@ var app = angular.module("xmodule", []).controller("xcontroller", [
         popupAnchor: [-3, -76],
       },
     });
+	 var subscribe = false
+	onSubscribeClick : function(){
+		console.log("Subscribe Clicked ");
+		this.subscribe = true;
+		//var subscribe = true ; 
+	}
+	  
+	  onUnsubscribeClick : function (){
+		  var unsubscribe = true ; 
+		  }
+	  
+	  
+	  
     var greenIcon = new LeafIcon({
       iconUrl: "https://media.giphy.com/media/l2JJu04IiC8vua5hu/giphy.gif",
       shadowUrl: "http://leafletjs.com/examples/custom-icons/leaf-shadow.png",
