@@ -146,14 +146,15 @@ var app = angular.module("xmodule", []).controller("xcontroller", [
       },
     });
 	 var subscribe = false
-	onSubscribeClick : function(){
+	  function onSubscribeClick (){
 		console.log("Subscribe Clicked ");
 		this.subscribe = true;
 		//var subscribe = true ; 
 	}
 	  
-	  onUnsubscribeClick : function (){
+	   function  onUnsubscribeClick (){
 		  var unsubscribe = true ; 
+		   console.log("Unsubscribed")
 		  }
 	  
 	  
